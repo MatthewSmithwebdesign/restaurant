@@ -1,4 +1,4 @@
- <div class="welcome-menu">
+ <div class="side-menu">
       <a href="/" class="logo"><img
           src="https://www.jing.fm/clipimg/full/14-148518_restaurants-clipart-clipart-restaurant-logo-png.png" alt="">
 
@@ -6,6 +6,9 @@
       <div class="menu">
         <div class="menu-title">Menu</div>
         <ul class="links">
+         <li>
+            <a href="/about">About</a>
+          </li>
           <li>
             <a href="/menu">Menu</a>
           </li>
