@@ -10,7 +10,15 @@
    <section id="food-preview">
     <h2>We will feed your hunger</h2>
     <div class="button-rounded">Veiw Our Menu </div>
-    <div class="food-slider">
+     <div class="container">
+      <div class="left-btn">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </div>
+      <div class="right-btn">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
+        <div class="food-slider">
+           <div class="sliding-system">
       <div class="slide">
         <div class="background"></div>
         <div class="content">
@@ -86,9 +94,45 @@
           </div>
         </div>
       </div>
+      <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Beers
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img
+                  src="/img/beer.png">
+              </div>
+            </div>
+          </div>
+           <div class="slide">
+            <div class="background"></div>
+            <div class="content">
+              <div class="food-title">
+                Beers
+              </div>
+              <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
+                architecto
+                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
+                repellendus natus nihil?
+              </p>
+              <div class="food-image">
+                <img
+                  src="/img/Drink.png">
+              </div>
+            </div>
+          </div>
 
     </div>
-
+</div>
 
   </section>
 
