@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/menu', function () {
     return view('menu/index');
 });
+Route::get('/menu/{slug}', function () {
+    return view('menu/single-menu');
+});
 Route::get('/waitlist', function () {
     return view('pages/waitlist');
 });
@@ -29,9 +32,7 @@ Route::get('/contact', function () {
 Route::get('/offers', function () {
     return view('pages/offers');
 });
-Route::get('/giftcards', function () {
-    return view('pages/giftcards');
-});
+
 
 Route::get('/about', function () {
     return view('pages/about');
